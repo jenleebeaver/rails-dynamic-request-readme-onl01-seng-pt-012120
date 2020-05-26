@@ -302,3 +302,7 @@ Migrating to CreatePosts (20151230232412)
 Started GET "/posts/1" for 127.0.0.1 at 2020-05-26 23:01:06 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 291ms (Views: 277.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
